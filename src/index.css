@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.page {
+  background-color: beige;
+  height: 100vh;
+  padding-top: 20px;
+  overflow: auto;
+}
+
+.card-grid {
+  margin: 10px auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.charts {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.loading-img {
+  height: 400px;
+}

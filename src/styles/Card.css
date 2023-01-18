@@ -1,0 +1,61 @@
+.card {
+  height: 300px;
+  width: 200px;
+  background-color: #fff;
+}
+
+.card.expanded {
+  transform: scale(1.5, 1.4);
+  transform-origin: top;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  position: relative;
+}
+
+.card-cover {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.card-cover-img {
+  width: 100%;
+  height: 100%;
+}
+
+.ellipsis-div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 4.2em;
+  text-align: center;
+  font-size: 15px;
+  width: 90%;
+  margin: 5px auto;
+}
+
+.rank-div {
+  background-color: #cd13a1;
+  width: 20px;
+  height: 20px;
+  right: 0px;
+  top: 0px;
+  font-weight: bold;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-expanded-info {
+  font-size: 10px;
+  padding: 5px 0;
+  background-color: #fff;
+}
+
+.heading {
+  margin-left: 5px;
+  font-weight: bold;
+}
